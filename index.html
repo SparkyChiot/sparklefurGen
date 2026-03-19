@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    
+    <h1>Kandi Cuff Generator</h1>
+    <form>
+      <input type="checkbox" id="randomMode" name="theme" value="random" checked>
+      <label for="randomMode">Random</label>
+      <br>
+      <input type="checkbox" id="scemo" name="theme" value="scemo">
+      <label for="scemo">Scemo</label>
+      <input type="checkbox" id="nature" name="theme" value="nature">
+      <label for="nature">Nature</label>
+      <input type="checkbox" id="kidcore" name="theme" value="kidcore">
+      <label for="kidcore">Kidcore</label>
+      <input type="checkbox" id="foodie" name="theme" value="foodie">
+      <label for="foodie">Foodie</label><br>
+      <input type="checkbox" id="geometric" name="theme" value="geometric">
+      <label for="geometric">Geometric</label>
+      <input type="checkbox" id="webcore" name="theme" value="webcore">
+      <label for="webcore">Webcore</label>
+      <input type="checkbox" id="pastel" name="theme" value="pastel">
+      <label for="pastel">Pastel</label>
+      <input type="checkbox" id="lovecore" name="theme" value="lovecore">
+      <label for="lovecore">Lovecore</label><br>
+    </form>
+    <br>
+    <input type="checkbox" id="easy" name="difficulty" value="easy" checked>
+    <label for="easy">Include Easy Cuff Styles?</label>
+    <input type="checkbox" id="intermediate" name="difficulty" value="intermediate">
+    <label for="intermediate">Include Intermediate Cuff Styles?</label>
+    <input type="checkbox" id="hard" name="difficulty" value="hard">
+    <label for="hard">Include Hard Cuff Styles?</label>
+    <br>
+    <input type="checkbox" id="quirk" checked>
+    <label for="quirk">Include Design Quirk?</label>
+    <input type="checkbox" id="easy" checked>
+    <label for="easy">Include Color Palette?</label>
+    <br>
+    <button onclick="showCuff()">Generate Kandi Cuff!</button>
+    <br>
+    <p id="display"></p>
+    
+    <script src="script.js"></script>
